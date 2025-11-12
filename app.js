@@ -3,7 +3,7 @@
   'use strict';
 
   const DEBUG_ALERT = true; // show alerts
-  const SOUND_URL = 'http://127.0.0.1:5500/sound.mp3'; // Live Server URL for your sound
+  const SOUND_URL = 'https://github.com/PythonScriptPlusPlus/notionTicker/raw/refs/heads/main/sound.mp3'; // Live Server URL for your sound
   const slayAudio = new Audio(SOUND_URL);
 
   console.log('%c[notion-checkbox-debug] script started', 'color: hotpink; font-weight:bold;', new Date().toISOString());
